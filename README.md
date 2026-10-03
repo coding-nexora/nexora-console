@@ -1,103 +1,95 @@
 <div align="center">
 
-# ◈ NEXORA
+<img src="assets/nexora-logo.png" width="130" alt="Nexora Logo">
 
-### Your Windows workspace for terminal, remote access and development.
+# NEXORA
 
-**Eine moderne Windows-Konsole, die Terminal, SSH, Systemverwaltung  
-und Developer Tools in einer Oberfläche vereint.**
+### DEVELOPER WORKSPACE
 
-<br>
+**Terminal · SSH · System · Projekte · Tools**
 
-![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?style=for-the-badge&logo=windows11&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-10-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![Status](https://img.shields.io/badge/STATUS-IN%20DEVELOPMENT-F59E0B?style=for-the-badge)
-![Version](https://img.shields.io/badge/VERSION-0.1.0-2DD4BF?style=for-the-badge)
+Eine moderne Developer-Konsole für Windows.
 
 <br>
 
-**[Features](#-features) · [Remote](#-remote--ssh) · [Commands](#-nexora-commands) · [Roadmap](#-roadmap) · [Development](#-development)**
+![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-20242A?style=for-the-badge&logo=windows11&logoColor=white)
+![Release](https://img.shields.io/badge/Release-Beta-4DD9C5?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-0.1.0-20242A?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-4DD9C5?style=for-the-badge)
+
+<br>
+
+**[Übersicht](#-was-ist-nexora) · [Terminal](#-terminal) · [SSH](#-ssh--remote) · [System](#-system-monitoring) · [Beta](#-beta)**
 
 </div>
 
 ---
 
-## ◈ Meet Nexora
+## ◈ Was ist Nexora?
 
-**Nexora** ist eine moderne Terminal- und Entwicklungsumgebung für Windows.
+**Nexora** ist ein moderner Developer Workspace für Windows, der alltägliche
+Entwicklungs- und Administrationswerkzeuge in einer gemeinsamen Anwendung
+vereint.
 
-Statt Terminal, SSH-Client, Systeminformationen und Entwicklerwerkzeuge
-auf mehrere Programme zu verteilen, bringt Nexora diese Funktionen
-in einer gemeinsamen Oberfläche zusammen.
+Terminal öffnen. Server über SSH verwalten. Systemressourcen überwachen.
+Projekte organisieren. Tools ausführen.
 
-Nexora ersetzt PowerShell und CMD dabei nicht.
+Alles, ohne ständig zwischen verschiedenen Anwendungen wechseln zu müssen.
 
-Es baut auf den vorhandenen Windows-Werkzeugen auf und erweitert sie
-um eine moderne Benutzeroberfläche, Remote-Verbindungen,
-Serverprofile und zusätzliche Entwicklerfunktionen.
-
-> **Ein Workspace. Deine Terminals. Deine Server. Deine Projekte.**
+> **Nexora bringt deinen Workspace an einen Ort.**
 
 ---
 
-## ✦ Features
+## ✦ Ein Workspace. Mehr Möglichkeiten.
 
 <table>
 <tr>
-<td width="50%">
+<td width="33%" valign="top">
 
-### `>_` Modern Terminal
+### `>_` Terminal
 
-PowerShell und CMD direkt innerhalb von Nexora verwenden.
-
-- mehrere Terminal-Tabs
-- Command History
-- Copy & Paste
-- eigene Nexora Commands
-- anpassbare Terminal-Einstellungen
+PowerShell und CMD direkt innerhalb von Nexora – mit Tabs und mehreren
+parallelen Sitzungen.
 
 </td>
-<td width="50%">
+<td width="33%" valign="top">
 
-### `◇` Remote & SSH
+### `◇` SSH
 
-Linux- und andere SSH-Systeme direkt aus Nexora erreichen.
+Verbinde dich über SSH mit deinen Servern und speichere häufig verwendete
+Verbindungen als Profile.
 
-- SSH über Windows OpenSSH
-- gespeicherte Serverprofile
-- eigene Ports und Benutzer
-- SSH-Key-Unterstützung geplant
-- Verbindungen direkt im Terminal
+</td>
+<td width="33%" valign="top">
+
+### `▣` System
+
+Überwache CPU, RAM, Speicher und weitere Systeminformationen direkt
+innerhalb deines Workspace.
 
 </td>
 </tr>
 
 <tr>
-<td width="50%">
+<td width="33%" valign="top">
 
-### `▣` System
+### `◆` Projekte
 
-Wichtige Informationen über deinen Windows-PC auf einen Blick.
-
-- CPU
-- RAM
-- Speicher
-- Netzwerk
-- Prozesse
-- Ports
+Organisiere deine Entwicklungsprojekte und öffne sie direkt aus Nexora.
 
 </td>
-<td width="50%">
+<td width="33%" valign="top">
 
-### `◆` Developer Tools
+### `⌘` Tools
 
-Nexora erkennt Entwicklungsprojekte und stellt passende Werkzeuge bereit.
+Häufig benötigte Developer- und Systemwerkzeuge sind zentral erreichbar.
 
-- .NET
-- Node.js
-- Python
-- Java
-- Git
+</td>
+<td width="33%" valign="top">
+
+### `⚙` Workspace
+
+Passe Nexora und deinen Workflow über die integrierten Einstellungen an.
 
 </td>
 </tr>
@@ -105,343 +97,232 @@ Nexora erkennt Entwicklungsprojekte und stellt passende Werkzeuge bereit.
 
 ---
 
-# ◇ Remote. Direkt verbunden.
+# `>_` Terminal
 
-Nexora verfügt über einen integrierten **Remote Manager**.
+## Deine Konsole. Neu gedacht.
 
-Serverdaten können bequem über die Oberfläche eingetragen und
-als Profile gespeichert werden.
+Nexora integriert deine Windows-Shell direkt in den Developer Workspace.
 
 <div align="center">
 
-![Nexora Remote](docs/screenshots/remote.png)
+<img src="assets/screenshots/terminal.png" width="100%" alt="Nexora Terminal">
 
 </div>
 
-### Eine Verbindung könnte beispielsweise so aussehen
+### Terminal Features
+
+- PowerShell
+- CMD
+- mehrere Terminal-Tabs
+- parallele Sessions
+- Command History
+- Copy & Paste
+- Arbeitsverzeichnis
+- Prozessinformationen
+- Statusanzeige
+
+In der unteren Statusleiste zeigt Nexora zusätzlich wichtige Informationen
+über die aktuelle Sitzung und dein System.
 
 ```text
-Name       Development
-Server     server.example.com
-Benutzer   deploy
-Port       22
+CMD  ·  Verbunden  ·  PID 22296
+
+Node v24.21.0  ·  CPU 67%  ·  RAM 70%  ·  Disk 46%  ·  Nexora 0.1.0
 ```
 
-Nexora verwendet im Hintergrund den in Windows vorhandenen
-**OpenSSH-Client**.
+---
 
-Die entsprechende Verbindung lautet:
+# ◇ SSH & Remote
+
+## Deine Server. Direkt verbunden.
+
+Nexora besitzt einen integrierten SSH-Bereich für Remote-Verbindungen.
+
+Server können mit Host, Benutzer und Port eingerichtet und als Profile
+gespeichert werden.
+
+```text
+Development
+
+Host       server.example.com
+User       deploy
+Port       22
+
+                     [ Verbinden → ]
+```
+
+Nexora verwendet dafür den **Windows OpenSSH Client**.
+
+Eine Verbindung entspricht beispielsweise:
 
 ```powershell
 ssh deploy@server.example.com -p 22
 ```
 
-Passwort-, Key- und Host-Abfragen bleiben innerhalb der
-Terminal-Sitzung.
+Damit bleiben SSH-Passwort-, Schlüssel- und Host-Abfragen innerhalb
+der Terminal-Sitzung.
 
 ---
 
-## ◇ Server Profiles
+# ▣ System Monitoring
 
-Häufig verwendete Server müssen nicht jedes Mal neu eingetragen werden.
+## Alles im Blick.
 
-Nexora kann Verbindungsprofile speichern:
+Nexora zeigt wichtige Systeminformationen live direkt im Workspace an.
+
+<div align="center">
+
+<img src="assets/screenshots/system.png" width="100%" alt="Nexora System Monitoring">
+
+</div>
+
+Die Werte werden regelmäßig aktualisiert.
+
+### Systeminformationen
+
+| Information | Beschreibung |
+|:--|:--|
+| **CPU** | Aktuelle Prozessorauslastung |
+| **RAM** | Aktuelle Arbeitsspeicherauslastung |
+| **Disk** | Speicherbelegung |
+| **System** | Windows-Version und Architektur |
+| **CPU Info** | Anzahl logischer Prozessoren |
+| **Storage** | Freier und gesamter Speicher |
+
+Über **„Prozesse im Terminal anzeigen“** können laufende Prozesse direkt
+über das Nexora Terminal untersucht werden.
+
+---
+
+# ◆ Projekte
+
+Nexora besitzt einen eigenen Bereich für Entwicklungsprojekte.
+
+Dadurch können Projekte zentral verwaltet und direkt mit dem Terminal
+und den integrierten Developer Tools verwendet werden.
+
+Der Workspace ist auf typische Entwicklungsumgebungen wie beispielsweise
+Node.js, .NET, Java, Python und Git ausgelegt.
+
+---
+
+# ⌘ Befehle
+
+Über **Befehle** in der oberen Navigationsleiste können Funktionen
+schnell aufgerufen werden.
+
+Nexora ist dadurch nicht ausschließlich über die Seitenleiste bedienbar,
+sondern bietet einen schnellen Workflow für häufig verwendete Aktionen.
+
+---
+
+# ✦ Live Status
+
+Die Nexora Statusleiste liefert jederzeit einen schnellen Überblick:
 
 ```text
-╭──────────────────────────────────────────────╮
-│  ◇ Development                              │
-│                                              │
-│  deploy@server.example.com                   │
-│  Port 22                                     │
-│                                              │
-│  ● Ready                                     │
-│                                              │
-│                 [ Connect → ]                │
-╰──────────────────────────────────────────────╯
+Node v24.21.0
+CPU 30%
+RAM 70%
+Disk 46%
+Nexora 0.1.0
 ```
 
-Geplant sind außerdem:
-
-- Favoriten
-- SSH Keys
-- Verbindungsstatus
-- zuletzt verwendete Server
-- Profilbearbeitung
-- schnelle Wiederverbindung
+Dadurch bleiben wichtige Informationen sichtbar, ohne den eigentlichen
+Workspace zu überladen.
 
 ---
 
-# `>_` Terminal
+# 🎨 Nexora Design
 
-Das Terminal bildet das Herzstück von Nexora.
+Nexora verwendet eine bewusst reduzierte Benutzeroberfläche.
 
-```text
-╭─ NEXORA ────────────────────────────────────────────────╮
-│                                                       │
-│  PowerShell 7                          ● Running       │
-│                                                       │
-│  C:\Projects\Nexora                                   │
-│                                                       │
-│  ❯ dotnet run                                         │
-│                                                       │
-│  Building...                                          │
-│  ✓ Build succeeded                                    │
-│                                                       │
-│  Nexora started successfully.                         │
-│                                                       │
-│  ❯ _                                                  │
-│                                                       │
-╰───────────────────────────────────────────────────────╯
-```
+Das Design basiert auf:
 
-Unterstützt werden sollen:
+- dunklem Developer-Workspace
+- Türkis als Nexora-Akzentfarbe
+- klarer Seitenleiste
+- minimalistischen Icons
+- dezenten Rahmen
+- großen Arbeitsflächen
+- reduzierten Statusanzeigen
+- konsistenter Typografie
 
-**PowerShell** · **PowerShell 7** · **CMD**
-
-Jede Terminal-Sitzung läuft unabhängig in einem eigenen Tab.
+Das Ziel ist eine Oberfläche, die auch bei längerer Arbeit übersichtlich
+und angenehm bleibt.
 
 ---
 
-# ◈ Nexora Commands
+# 🔐 Sicherheit
 
-Neben normalen Shell-Befehlen erhält Nexora ein eigenes Command-System.
+Gerade bei Remote-Verbindungen behandelt Nexora sensible Daten bewusst.
 
-```powershell
-nexora help
-nexora version
+Nexora setzt unter anderem auf:
 
-nexora system
-nexora processes
-nexora network
-nexora ports
-nexora disk
-
-nexora ssh
-```
-
-### Beispiel
-
-```text
-❯ nexora system
-
-  ◈ NEXORA SYSTEM
-
-  Operating System     Windows 11
-  Architecture         x64
-  Memory               32 GB
-  Shell                PowerShell 7
-  Nexora               0.1.0
-
-  ✓ System information loaded.
-
-❯
-```
+- Windows OpenSSH
+- keine fest eingebauten Passwörter
+- keine Zugangsdaten im Quellcode
+- SSH Host Verification
+- Unterstützung bestehender SSH-Sicherheitsmechanismen
 
 ---
 
-# ◆ Project Detection
+# ⚙ Technologie
 
-Nexora soll automatisch erkennen, wenn sich das Terminal innerhalb
-eines Entwicklungsprojekts befindet.
-
-| Erkennung | Projekt |
-|:---|:---|
-| `package.json` | Node.js |
-| `pyproject.toml` | Python |
-| `requirements.txt` | Python |
-| `*.csproj` | .NET |
-| `pom.xml` | Java / Maven |
-| `build.gradle` | Java / Gradle |
-| `.git` | Git Repository |
-
-Nach der Erkennung kann Nexora passende Aktionen anbieten:
-
-```text
-╭─ PROJECT ───────────────────────────────────╮
-│                                            │
-│  ◆ Nexora                                  │
-│                                            │
-│  Framework       .NET                      │
-│  Git Branch      main                      │
-│  Status          ✓ Ready                   │
-│                                            │
-│  [ ▶ Run ]   [ Git ]   [ Open Folder ]     │
-│                                            │
-╰────────────────────────────────────────────╯
-```
+| | |
+|:--|:--|
+| **Platform** | Windows |
+| **Language** | C# |
+| **Framework** | .NET |
+| **Interface** | Windows Desktop |
+| **Remote** | Windows OpenSSH |
+| **Version** | 0.1.0 |
+| **Release Channel** | Beta |
 
 ---
 
-# ▣ System Dashboard
+# 🧪 Beta
 
-Systeminformationen sollen direkt innerhalb von Nexora verfügbar sein.
+> [!IMPORTANT]
+> ### Nexora befindet sich aktuell in der Beta.
+>
+> Nexora ist bereits funktionsfähig und kann verwendet werden.
+> Da es sich noch um eine Beta-Version handelt, können Fehler auftreten
+> und einzelne Funktionen oder Teile der Benutzeroberfläche noch verändert
+> oder erweitert werden.
 
-```text
-SYSTEM STATUS
-
-CPU       ███████░░░░░░░░░░░░░   34%
-Memory    ███████████░░░░░░░░░   52%
-Disk      █████████████░░░░░░░   64%
-
-Network
-
-↓  24.8 MB/s
-↑   4.2 MB/s
-
-Uptime    2d 14h 32m
-```
-
-Alle angezeigten Werte sollen tatsächlich aus Windows ausgelesen werden.
+Bug Reports und Verbesserungsvorschläge sind ausdrücklich willkommen.
 
 ---
 
-# ⌘ Command Palette
+# 🐛 Bugs & Feedback
 
-Viele Nexora-Funktionen sollen ohne Navigation erreichbar sein.
+Du hast einen Fehler gefunden oder eine Idee für Nexora?
 
-```text
-Ctrl + Shift + P
-```
+Erstelle ein **GitHub Issue** mit möglichst folgenden Informationen:
 
-öffnet die Command Palette:
-
-```text
-╭──────────────────────────────────────────────╮
-│  Search commands...                         │
-├──────────────────────────────────────────────┤
-│                                              │
-│  >  New PowerShell Terminal                 │
-│     New CMD Terminal                        │
-│     Connect to Remote                       │
-│     Open Project                            │
-│     System Dashboard                        │
-│     Settings                                │
-│                                              │
-╰──────────────────────────────────────────────╯
-```
-
----
-
-# ⌨ Keyboard Shortcuts
-
-| Shortcut | Aktion |
-|:---|:---|
-| `Ctrl + Shift + T` | Neues Terminal |
-| `Ctrl + W` | Aktuellen Tab schließen |
-| `Ctrl + Shift + P` | Command Palette |
-| `Ctrl + ,` | Einstellungen |
-| `Ctrl + L` | Terminal leeren |
-| `Ctrl + C` | Kopieren / Prozess abbrechen |
-| `Ctrl + V` | Einfügen |
-
----
-
-# 🔐 Security by Design
-
-Remote-Verbindungen benötigen besondere Sorgfalt.
-
-Nexora soll deshalb grundsätzlich:
-
-- keine Passwörter im Quellcode speichern
-- keine Zugangsdaten als Klartext in normalen Konfigurationsdateien ablegen
-- SSH Keys unterstützen
-- bekannte SSH Hosts respektieren
-- Host-Fingerprint-Prüfungen nicht automatisch umgehen
-- sensible Daten über geeignete Windows-Sicherheitsfunktionen speichern
+- Nexora-Version
+- Windows-Version
+- Beschreibung des Problems
+- Schritte zum Reproduzieren
+- Screenshot oder Fehlermeldung, falls vorhanden
 
 ---
 
 # 🗺 Roadmap
 
-### `v0.1` — Foundation
+Nexora wird auch nach der Beta kontinuierlich weiterentwickelt.
 
-- [x] Nexora Grundoberfläche
-- [x] Remote UI
-- [ ] PowerShell Terminal
-- [ ] CMD Terminal
-- [ ] Terminal Tabs
-- [ ] funktionierende SSH-Verbindungen
-- [ ] Serverprofile
-- [ ] Settings
+Geplant sind unter anderem:
 
-### `v0.2` — Developer
-
-- [ ] Nexora Commands
-- [ ] System Dashboard
-- [ ] Command Palette
-- [ ] Project Detection
-- [ ] Git Integration
-
-### `v0.3` — Remote
-
-- [ ] SSH Key Manager
-- [ ] Server Dashboard
-- [ ] Remote Status
-- [ ] Favoriten
-- [ ] Connection History
-
-### `Future`
-
-- [ ] Plugin System
-- [ ] Themes
-- [ ] Auto Update
-- [ ] erweiterte Developer Tools
-- [ ] zusätzliche Remote-Funktionen
-
----
-
-# ⚙ Development
-
-Nexora wird speziell für Windows entwickelt.
-
-| | |
-|:---|:---|
-| **Language** | C# |
-| **Framework** | .NET |
-| **UI** | WinUI 3 |
-| **Architecture** | MVVM |
-| **Remote** | Windows OpenSSH |
-| **Platform** | Windows 10 / 11 |
-
----
-
-# 📂 Repository
-
-Eine mögliche Projektstruktur:
-
-```text
-Nexora/
-│
-├── src/
-│   ├── Nexora.App/
-│   ├── Nexora.Core/
-│   ├── Nexora.Terminal/
-│   ├── Nexora.Remote/
-│   └── Nexora.System/
-│
-├── tests/
-│
-├── docs/
-│   ├── screenshots/
-│   │   └── remote.png
-│   └── architecture/
-│
-├── README.md
-├── LICENSE
-└── .gitignore
-```
-
----
-
-# 🚧 Development Status
-
-> [!IMPORTANT]
-> **Nexora befindet sich aktuell in Entwicklung.**
->
-> Funktionen, Benutzeroberfläche und Architektur können sich bis zur
-> ersten stabilen Version noch verändern.
-
-Fehler und Verbesserungsvorschläge können über GitHub Issues gemeldet werden.
+- [ ] weitere Terminal-Funktionen
+- [ ] erweiterte SSH-Verwaltung
+- [ ] zusätzliche Developer Tools
+- [ ] mehr Projektfunktionen
+- [ ] Performance-Optimierungen
+- [ ] weitere Anpassungsmöglichkeiten
+- [ ] zusätzliche Nexora Commands
+- [ ] Plugin-System
 
 ---
 
@@ -449,16 +330,20 @@ Fehler und Verbesserungsvorschläge können über GitHub Issues gemeldet werden.
 
 <br>
 
-# ◈
+<img src="assets/nexora-logo.png" width="80" alt="Nexora">
 
 ## NEXORA
 
-### Terminal. Remote. Develop.
+### DEVELOPER WORKSPACE
 
-**Built for Windows. Designed for developers.**
+**Terminal. Remote. System. Develop.**
 
 <br>
 
-`Windows` · `.NET` · `WinUI 3` · `OpenSSH`
+`Windows` · `Terminal` · `SSH` · `System` · `Development`
+
+<br>
+
+**Nexora 0.1.0 Beta**
 
 </div>
