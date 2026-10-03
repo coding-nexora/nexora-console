@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/nexora-logo.png" width="140" alt="Nexora Logo">
+<img src="Nexora/assets/nexora-logo.png" width="140" alt="Nexora Logo">
 
 # NEXORA
 
@@ -61,7 +61,6 @@ Workspace und erweitert sie um zusätzliche Funktionen.
 # ✦ Features
 
 <table>
-
 <tr>
 
 <td width="33%" valign="top">
@@ -140,7 +139,6 @@ Passe Nexora und deinen persönlichen Workspace an deine Anforderungen an.
 </td>
 
 </tr>
-
 </table>
 
 ---
@@ -151,18 +149,18 @@ Passe Nexora und deinen persönlichen Workspace an deine Anforderungen an.
 
 Das Nexora Terminal bildet einen zentralen Bestandteil des Developer Workspace.
 
-CMD und andere unterstützte Shells können direkt innerhalb von Nexora
+CMD, PowerShell und unterstützte Shells können direkt innerhalb von Nexora
 ausgeführt werden.
 
 <div align="center">
 
 <br>
 
-<img src="assets/screenshots/terminal.png" width="100%" alt="Nexora Terminal">
+<img src="Nexora/assets/screenshots/terminal.png" width="100%" alt="Nexora Terminal">
 
 <br>
 
-**Nexora Terminal – Beta 0.1.0**
+**Nexora Terminal — Beta 0.1.0**
 
 </div>
 
@@ -280,11 +278,11 @@ deinen Windows-PC direkt innerhalb von Nexora.
 
 <br>
 
-<img src="assets/screenshots/system.png" width="100%" alt="Nexora System">
+<img src="Nexora/assets/screenshots/system.png" width="100%" alt="Nexora System Monitor">
 
 <br>
 
-**Nexora System Monitor – Live-Systeminformationen**
+**Nexora System Monitor — Live-Systeminformationen**
 
 </div>
 
@@ -316,7 +314,7 @@ Disk     46%
 
 JOEL-LX16
 
-Microsoft Windows 10.0.26300
+Microsoft Windows
 4 logische Prozessoren · X64
 
 C:\
@@ -346,11 +344,11 @@ Dadurch bleiben Systemverwaltung und Terminal eng miteinander verbunden.
 
 Nexora besitzt einen eigenen **Projekte-Bereich**.
 
-Dieser Bereich ist dafür vorgesehen, Entwicklungsprojekte zentral
-innerhalb des Nexora Workspace zu verwalten.
+Dieser Bereich ermöglicht es, Entwicklungsprojekte zentral innerhalb
+des Nexora Workspace zu verwalten.
 
-Dadurch können Projekte schnell geöffnet und mit Terminal,
-Developer Tools und weiteren Nexora-Funktionen kombiniert werden.
+Projekte können so mit Terminal, Developer Tools und weiteren
+Nexora-Funktionen kombiniert werden.
 
 Nexora eignet sich unter anderem für Workflows mit:
 
@@ -363,8 +361,8 @@ Python
 Git
 ```
 
-Das langfristige Ziel ist, Projektverwaltung und Terminal möglichst
-nahtlos miteinander zu verbinden.
+Das Ziel ist, Projektverwaltung und Terminal möglichst nahtlos
+miteinander zu verbinden.
 
 ---
 
@@ -375,10 +373,7 @@ schnell aufgerufen werden.
 
 Dadurch muss nicht jede Funktion über die Seitenleiste geöffnet werden.
 
-Der Befehlsbereich ist für schnelle Aktionen innerhalb des
-Developer Workspace gedacht.
-
-Beispiele können sein:
+Beispiele:
 
 ```text
 Neues Terminal öffnen
@@ -443,7 +438,7 @@ den Systembereich öffnen zu müssen.
 
 Nexora besitzt eine eigene, bewusst reduzierte Designsprache.
 
-Die Benutzeroberfläche kombiniert einen dunklen Developer-Workspace
+Die Benutzeroberfläche kombiniert einen dunklen Developer Workspace
 mit der charakteristischen Nexora-Akzentfarbe.
 
 ### Designprinzipien
@@ -466,20 +461,21 @@ Entwicklungs- und Administrationsarbeiten angenehm zu verwenden ist.
 # ◈ Nexora Branding
 
 Das Nexora-Logo verbindet das **N** von Nexora mit einem nach rechts
-gerichteten Element, das Fortschritt, Ausführung und Entwicklung
-symbolisiert.
+gerichteten Element.
 
 <div align="center">
 
 <br>
 
-<img src="assets/nexora-logo.png" width="220" alt="Nexora Logo">
+<img src="Nexora/assets/nexora-logo.png" width="220" alt="Nexora Logo">
 
 <br>
 
 ### NEXORA
 
 **DEVELOPER WORKSPACE**
+
+**Build. Connect. Control.**
 
 </div>
 
@@ -591,14 +587,15 @@ Wie könnte die Funktion funktionieren?
 
 Nexora ist bereits funktionsfähig.
 
-Die weitere Entwicklung konzentriert sich deshalb auf neue Funktionen,
+Die weitere Entwicklung konzentriert sich auf neue Funktionen,
 Verbesserungen und die Vorbereitung auf eine stabile Version.
 
-### Beta
+### ◈ Beta
 
 - [x] Nexora Workspace
 - [x] Terminal
 - [x] CMD
+- [x] PowerShell
 - [x] Terminal Tabs
 - [x] SSH / Remote
 - [x] Serverprofile
@@ -608,7 +605,7 @@ Verbesserungen und die Vorbereitung auf eine stabile Version.
 - [x] Tools-Bereich
 - [x] Einstellungen
 
-### Nächste Updates
+### ◈ Nächste Updates
 
 - [ ] weitere Terminal-Funktionen
 - [ ] erweiterte SSH-Verwaltung
@@ -618,7 +615,7 @@ Verbesserungen und die Vorbereitung auf eine stabile Version.
 - [ ] Performance-Optimierungen
 - [ ] UI- und UX-Verbesserungen
 
-### Zukunft
+### ◈ Zukunft
 
 - [ ] Plugin-System
 - [ ] zusätzliche Themes
@@ -631,21 +628,21 @@ Verbesserungen und die Vorbereitung auf eine stabile Version.
 
 # 📸 Screenshots
 
-## Terminal
+## `>_` Terminal
 
 <div align="center">
 
-<img src="assets/screenshots/terminal.png" width="100%" alt="Nexora Terminal">
+<img src="Nexora/assets/screenshots/terminal.png" width="100%" alt="Nexora Terminal Screenshot">
 
 </div>
 
----
+<br>
 
-## System Monitor
+## ▣ System Monitor
 
 <div align="center">
 
-<img src="assets/screenshots/system.png" width="100%" alt="Nexora System Monitor">
+<img src="Nexora/assets/screenshots/system.png" width="100%" alt="Nexora System Monitor Screenshot">
 
 </div>
 
@@ -653,51 +650,55 @@ Verbesserungen und die Vorbereitung auf eine stabile Version.
 
 # 📁 Repository-Struktur
 
-Die für diese README verwendeten Bilder befinden sich unter:
+Die Assets für die README befinden sich aktuell unter:
 
 ```text
-Nexora/
+nexora-console/
 │
-├── assets/
-│   │
-│   ├── nexora-logo.png
-│   │
-│   └── screenshots/
-│       ├── terminal.png
-│       └── system.png
+├── README.md
 │
-└── README.md
+└── Nexora/
+    └── assets/
+        ├── nexora-logo.png
+        │
+        └── screenshots/
+            ├── terminal.png
+            └── system.png
 ```
 
-Da sich `README.md` und `assets` beide im Ordner `Nexora` befinden,
-werden die Bilder mit relativen Pfaden eingebunden:
+Da sich die `README.md` im Hauptverzeichnis des Repositorys befindet,
+beginnen die Bildpfade mit:
 
-```html
-<img src="assets/nexora-logo.png">
-<img src="assets/screenshots/terminal.png">
-<img src="assets/screenshots/system.png">
+```text
+Nexora/assets/
+```
+
+Die verwendeten Pfade sind:
+
+```text
+Nexora/assets/nexora-logo.png
+Nexora/assets/screenshots/terminal.png
+Nexora/assets/screenshots/system.png
 ```
 
 ---
 
 # 📦 Releases
 
-Nexora wird aktuell über den **Beta Release Channel** entwickelt
-und veröffentlicht.
+Nexora wird aktuell über den **Beta Release Channel** veröffentlicht.
 
-Bei einem Release sollte immer auf die Versionsnummer geachtet werden.
-
-Beispiel:
+Aktuelle Version:
 
 ```text
 Nexora 0.1.0 Beta
 ```
 
-Spätere Versionen können beispielsweise folgen als:
+Zukünftige Versionen können beispielsweise folgen als:
 
 ```text
 Nexora 0.2.0 Beta
 Nexora 0.3.0 Beta
+
 Nexora 1.0.0
 ```
 
@@ -724,7 +725,7 @@ Feedback hilft dabei, Nexora weiterzuentwickeln.
 <br>
 <br>
 
-<img src="assets/nexora-logo.png" width="90" alt="Nexora">
+<img src="Nexora/assets/nexora-logo.png" width="90" alt="Nexora Logo">
 
 # NEXORA
 
