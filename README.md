@@ -15,7 +15,7 @@ Systemüberwachung, Projekte und Tools in einem Workspace vereint.
 
 ![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-20242A?style=for-the-badge&logo=windows11&logoColor=white)
 ![Release](https://img.shields.io/badge/Release-BETA-4DD9C5?style=for-the-badge)
-![Version](https://img.shields.io/badge/Version-0.1.8.2-20242A?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-0.1.8.3-20242A?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-ACTIVE-4DD9C5?style=for-the-badge)
 
 <br>
